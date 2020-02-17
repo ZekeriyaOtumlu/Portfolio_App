@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bootsrap-Protfolio</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./assets/css/portfolio.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <nav class="navbar d-flex">
+        <nav class="heading">
+          <h4>Zekeriya Otumlu</h4>
+        </nav>
+     
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active text-secondary" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-secondary" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="projects">
+    <div class="section-container">
+        <div class="title">
+            <h1> <span id="projectTitleName"></span> Projects</h1>
+        </div>
+        <div class="main-content">
+            <nav id="buttons-menu">
+                <button id="frontend" class="btn btn-secondary">FrontEnd</button>
+                <button id="react" class="btn btn-secondary">React</button>
+                <button id="backend" class="btn btn-secondary">Backend</button>
+                <button id="full-stack" class="btn btn-secondary">Full Stack</button>
+            </nav>
+            <!------------------------------Frontend Projects -------------------------------->
+            <div class="row frontend-projects">
+                <div class="dotted col-md-6">
+                    <!-- Img project will go here. -->
+                    <div class="project-item word"></div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Name of the Project -->
+                    <h4 id="project-name">Word World</h4>
+
+                    <!-- Instructions - paragraph -->
+                    <p id="project-info">Word World is a word game, type your word and get Definition, Type, Synonyms and Antonyms of word you entered in search input. Using dictionary and pixabay APIs.
+                        
+                        <br>
+                        User also will get an images related to their word entered in search input.
+                    </p>
+
+                    <!-- Skills -->
+                    <div class="skills">
+                        <h2>Technologies</h2>
+                        <img id="programming-skills" src="assets/images/skills-images/html5.png" alt="HTML5">
+                        <img id="programming-skills" src="assets/images/skills-images/css3.png" alt="CSS3">
+                        <img id="programming-skills" src="assets/images/skills-images/JS.png" alt="JavaScript">
+                        <img id="programming-skills" src="assets/images/skills-images/bootstrap.png" alt="CSS3">
+                        <img id="programming-skills" src="assets/images/skills-images/jQuery.png" alt="jQuery">
+                    </div>
+
+                    <!-- Link to GitHub and Project -->
+                    <div class="btn-links">
+                        <a id="demo" class="btn btn-success" href="https://zekeriyaotumlu.github.io/WordWorld/"
+                            target="_blank">Demo</a>
+                        <a id="github" class="btn btn-info" href="https://github.com/ZekeriyaOtumlu/WordWorld"
+                            target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row frontend-projects">
+                <div class="dotted col-md-6">
+                    <!-- Name of the Project -->
+                    <h4 id="project-name">Giphy API Search</h4>
+
+                    <!-- Instructions - paragraph -->
+                    <p id="project-info">
+                        You will be begin with a set of random GIFs buttons. Once you click on the button it will
+                        display 10 different GIFs images. Make sure you click on the GIF image to play and click to
+                        pause as well. You also have the option to search of any type of GIF.
+                    </p>
+
+                    <!-- Skills -->
+                    <div class="skills">
+                        <h2>Technologies</h2>
+                        <img id="programming-skills" src="assets/images/skills-images/html5.png" alt="HTML5">
+                        <img id="programming-skills" src="assets/images/skills-images/css3.png" alt="CSS3">
+                        <img id="programming-skills" src="assets/images/skills-images/JS.png" alt="JavaScript">
+                        <img id="programming-skills" src="assets/images/skills-images/jQuery.png" alt="jQuery">
+                    </div>
+
+                    <!-- Link to GitHub and Project -->
+                    <div class="btn-links">
+                        <a id="demo" class="btn btn-success" href="https://zekeriyaotumlu.github.io/grapup/"
+                            target="_blank">Demo</a>
+                        <a id="github" class="btn btn-info" href="https://github.com/ZekeriyaOtumlu/grapup"
+                            target="_blank">GitHub</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Img project will go here. -->
+                    <div class="project-item giftastic"></div>
+                </div>
+            </div>
+
+            <!--------------------- Backend Projects ------------------------>
+            <div class="row react-projects">
+                <div class="dotted col-md-6">
+                    <!-- Img project will go here. -->
+                    <div class="project-item clickly-game"></div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Name of the Project -->
+                    <h4 id="project-name">Books Clicky Game</h4>
+
+                    <!-- Instructions - paragraph -->
+                    <p id="project-info">
+                        This is a clickly game built with React to track the number of clicks with a score. If the
+                        same image is clicked twice the game will be reset and user will be prompt with a message
+                        stating they lost the game. They could then click on another image to restart the game. Each
+                        correct click increments the users score by 1.
+                    </p>
+
+                    <!-- Skills -->
+                    <div class="skills">
+                        <h2>Technologies</h2>
+                        <img id="programming-skills" src="assets/images/skills-images/React.png" alt="React">
+                    </div>
+
+                    <!-- Link to GitHub and Project -->
+                    <div class="btn-links">
+                        <a id="demo" class="btn btn-success" href="https://zekeriyaotumlu.github.io/Click/"
+                            target="_blank">Demo</a>
+                        <a id="github" class="btn btn-info" href="https://github.com/ZekeriyaOtumlu/Modulatio"
+                            target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--------------------- Backend Projects ------------------------>
+            <div class="row backend-projects">
+                <div class="dotted col-md-6">
+                    <!-- Img project will go here. -->
+                    <div class="project-item bamazon"></div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Name of the Project -->
+                    <h4 id="project-name">Bamazon</h4>
+
+                    <!-- Instructions - paragraph -->
+                    <p id="project-info">
+                        A nodeJS app that was built to only work on the terminal.
+                        <br><br>
+                        Bamazon is a mini Amazon-like storefront using MySQL database where customers can buy
+                        products and manager has the option to use CRUD method on any item of the inventory; check
+                        products for sale, quantity
+                        of stock, add to the inventory, create new products and delete products.
+                    </p>
+
+                    <!-- Skills -->
+                    <div class="skills">
+                        <h2>Technologies</h2>
+                        <img id="programming-skills" src="assets/images/skills-images/JS.png" alt="HTML5">
+                        <img id="programming-skills" src="assets/images/skills-images/nodeJS.png" alt="CSS3">
+                        <img id="programming-skills" src="assets/images/skills-images/mySQL2.jpg" alt="JavaScript">
+                    </div>
+
+                    <!-- Link to GitHub and Project -->
+                    <div class="btn-links">
+                        <a id="github" class="btn btn-info" href="https://github.com/ZekeriyaOtumlu/abook.js"
+                            target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--------------------- Full Stack Projects ------------------------>
+            <div class="row fullStack-projects">
+                <div class="dotted col-md-6">
+                    <!-- Img project will go here. -->
+                    <div class="project-item loanedOut"></div>
+                </div>
+                <div class="col-md-6">
+                    <!-- Name of the Project -->
+                    <h4 id="project-name">Loaned Out</h4>
+
+                    <!-- Instructions - paragraph -->
+                    <p id="project-info">
+                        A full stack, MVC (Model-View-Controller) duel application that allows people to search what renting and whom you renting the tools.
+                        You can add user and tolls. Also able to update tools.
+                        Do not forget what you rent it and whom you rent it!!!
+            
+                    </p>
+
+                    <!-- Skills -->
+                    <div class="skills">
+                        <h2>Technologies</h2>
+                        <img id="programming-skills" src="assets/images/skills-images/html5.png" alt="HTML5">
+                        <img id="programming-skills" src="assets/images/skills-images/css3.png" alt="CSS3">
+                        <img id="programming-skills" src="assets/images/skills-images/JS.png" alt="JavaScript">
+                        <img id="programming-skills" src="assets/images/skills-images/bootstrap.png"
+                            alt="Bootstrap">
+                        <img id="programming-skills" src="assets/images/skills-images/jQuery.png" alt="jQuery">
+                        <img id="programming-skills" src="assets/images/skills-images/nodeJS.png" alt="nodeJS">
+                        <img id="programming-skills" src="assets/images/skills-images/express.png" alt="express.js">
+                        <img id="programming-skills" src="assets/images/skills-images/mySQL2.jpg" alt="mySQL">
+                    </div>
+
+                    <!-- Link to GitHub and Project -->
+                    <div class="btn-links">
+                        <a id="demo" class="btn btn-success" href="https://enigmatic-everglades-77067.herokuapp.com/"
+                            target="_blank">Demo</a>
+                        <a id="github" class="btn btn-info" href="https://github.com/ZekeriyaOtumlu/Loaned-Out-"
+                            target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<footer>
+
+  <div class="social-links">
+   <a href="https://www.linkedin.com/in/zekeriya-otumlu-3723381a2/" target="_blank" id="linkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+
+   <a href="https://github.com/ZekeriyaOtumlu" target="_blank" id="git"><i class="fa fa-github" aria-hidden="true"></i></a>
+
+   <a href="mailto:zekyotumlu@hotmail.com? subject=subject text" target="_blank" id="email-link"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+
+   <p>&copy Zekeriya Otumlu, 2020</p>
+</div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous "></script>
+    <script src="assets/JavaScript/app.js "></script>
+
+</body>
+
+</html>
